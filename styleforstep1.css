@@ -1,0 +1,105 @@
+* {
+  font-family: "Segoe UI", -apple-system, "Helvetica Neue", "Lucida Grande",
+    Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol",
+    "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha,
+    Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic",
+    "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue",
+    "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti",
+    "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";  
+}
+/*foe body */
+body{
+  background-image: url("Screenshot (2).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:initial;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*for box */
+.formy {
+  border: none;
+  padding-top: 3%;
+  padding-left: 3%;
+  display: block;
+  border-radius: 0px;
+  background-color: white;
+  position:center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 400px;
+  height:300px;
+  box-shadow: black;
+}
+
+.one{
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(49, 48, 48);
+}
+.two{
+  margin-top: -10px;
+}
+input{
+  border: none;
+  outline: none; 
+  font-size: 16px;
+  width: 355px;
+  background: transparent; 
+  padding-bottom: 2%;
+}
+input{
+  border-bottom: 1px solid rgb(110, 108, 108); 
+}
+input:focus {
+  border-bottom: 1px solid rgb(149, 149, 240);
+}
+.four{
+  margin-top: 14px;
+}
+a {
+  color: #0078D4; 
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+.three{
+  display: flex;
+  padding-top: 13%;
+  padding-left: 64%;
+}
+.btn {
+  display: flex;
+  align-self: flex-end;
+  padding-right: 100%;
+  position: 50%;
+  bottom: 35px;
+  right: 15px;
+  background-color: #005ea6; 
+  color: white;
+  border: none;
+  padding: 5px 35px;
+  font-size: 15px;
+  min-height: 32px;
+  cursor: pointer;
+  border-radius: none;
+}
+
+.btn:hover {
+  background-color: #005ea6; 
+  border-color: black;
+}
+a{
+  text-decoration: none;
+}

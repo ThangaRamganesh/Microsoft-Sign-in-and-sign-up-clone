@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's your birthdate?</title>
+    <link rel="icon" href="https://pngimg.com/d/microsoft_PNG13.png" />
+    <link rel="stylesheet" href="styleforstep3.css">
+</head>
+<body>
+    <section class="formy">
+        <div>
+          <img
+            src="https://logincdn.msftauth.net/shared/5/images/microsoft_logo_ee5c8d9fb6248c938fd0.svg"
+            alt="Microsoft Logo"
+          />
+        </div>
+        <div>
+            <p id="displayEmail"></p>   
+            <a href="signupstep2.html">
+            <button onclick="goBack()" class="back"><img src="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg"></button></a>
+            <script>
+                function goBack() {
+                    window.history.back();
+                }
+            </script>
+        </div>
+        <div>
+            <p class="one">What's your birthdate?</p>
+        </div>
+        <div>
+            <p class="two">If a child uses this device, select their date of birth to create a child account.</p>
+        </div>
+        
+    <label for="country">Country/Region</label>
+    <select id="country">
+        <option value="India" selected>India</option>
+        <option value="United States">United States</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Canada">Canada</option>
+        <option value="Australia">Australia</option>
+    </select>
+
+    <label for="birthdate">Birthdate</label>
+    <div class="birthdate-container">
+        <select id="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November" selected>November</option>
+            <option value="December">December</option>
+        </select>
+
+        <select id="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        
+
+        <input type="number" id="year" min="1900" max="2025" value="2003">
+    </div>
+    <div>
+    <p class="info">
+        A child account enables you to enforce parental controls and impose usage limits for this device for reasons of privacy and safety.
+        You can manage these settings using our Family Safety app. Learn more at 
+        <a href="https://aka.ms/family-safety-app" target="_blank">https://aka.ms/family-safety-app</a>.
+    </p>
+    </div>
+    <div class="three">
+        <br/>
+        <a href="signinstep4.html">
+          <button class="btn">Next</button>
+        </a>
+      </div>
+    </section>
+</body>
+</html>

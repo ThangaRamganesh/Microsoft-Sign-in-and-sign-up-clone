@@ -1,0 +1,151 @@
+* {
+    font-family: "Segoe UI", -apple-system, "Helvetica Neue", "Lucida Grande",
+      Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol",
+      "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha,
+      Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic",
+      "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue",
+      "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti",
+      "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";  
+  }
+  /*foe body */
+  body{
+    background-image: url("Screenshot\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:initial;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .formy {
+    border: none;
+    padding-top: 10%;
+    padding-left: 10%;
+    display: block;
+    border-radius: 0px;
+    background-color: white;
+    position:center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 400px;
+    height:300px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: black;
+  }
+  .one{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(44, 43, 43);
+}
+input{
+    border: none;
+    outline: none; 
+    font-size: 16px;
+    width: 355px;
+    background: transparent; 
+    padding-bottom: 2%;
+  }
+  input{
+    border-bottom: 1px solid rgb(110, 108, 108); 
+  }
+  input:focus {
+    border-bottom: 1px solid rgb(149, 149, 240);
+  }
+  a{
+    color:#0067b8;
+    text-decoration: none;
+  }
+  .three{
+    font-size: 13px;
+    margin-top: 6px;
+  }
+  .four{
+    font-size: 13px;
+    margin-top: -12px;
+  }
+  .btn {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 100%;
+    position: 50%;
+    bottom: 35px;
+    right: 15px;
+    background-color: #005ea6; 
+    color: white;
+    border: none;
+    padding: 5px 35px;
+    font-size: 15px;
+    min-height: 32px;
+    cursor: pointer;
+    border-radius: none;
+  }
+  .btn:hover {
+    background-color: #005ea6; 
+    border-color: black;
+  }
+  #bt{
+    display: flex;
+    align-self: flex-end;
+    padding-right: 100%;
+    position: 50%;
+    bottom: 35px;
+    right: 15px;
+    background-color: #c2c6c7; 
+    color: #070707;
+    border: none;
+    padding: 5px 35px;
+    font-size: 15px;
+    min-height: 32px;
+    cursor: pointer;
+    border-radius: none;
+  }
+  #bt:hover{
+    border-color: black;
+  }
+  .five{
+    margin-top: 22px;
+    display: flex;
+    padding-left: 37%;
+    justify-content: center;
+    gap: 10px;
+
+  }
+#farm{
+    background: white;
+    border-radius: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 445px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: 16px;
+}
+img{
+    display: flex;
+    align-self: center;
+}
+.par{
+    margin-top: 2%;
+    margin-right: 58%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.hype{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:22px;
+}

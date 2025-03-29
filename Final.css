@@ -1,0 +1,122 @@
+* {
+    font-family: "Segoe UI", -apple-system, "Helvetica Neue", "Lucida Grande",
+      Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol",
+      "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha,
+      Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic",
+      "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue",
+      "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti",
+      "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";  
+  }
+  /*foe body */
+  body{
+    background-image: url("Screenshot\ \(3\).png");
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:initial;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+  }
+  .das{
+    margin-top: -0.3%;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 32%;
+  }
+  .formy {
+    border: none;
+    padding-top: 9%;
+    padding-right: 9%;
+    height: 75vh;
+    padding-left: 9%;
+    display: block;
+    border-radius: 0px;
+    background-color: white;
+    position:center;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: start;
+    width: 450px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: black;
+  }
+.one{
+    max-width: 300px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(44, 43, 43);
+}
+.two{
+    display: flex;
+    align-self: center;
+    margin-top: -10%;
+    margin-left: 80%;
+}
+.three{
+    font-size: 14px;
+}
+.four{
+    margin-top: -2%;
+    font-size: 14px;
+    max-width: 350px;
+}
+a{
+    text-decoration: none;
+    color:#0067b8;
+    font-size: 14px;
+}
+.btn {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    padding-right: 100%;
+    position: 50%;
+    bottom: 35px;
+    right: 15px;
+    background-color: #005ea6; 
+    color: white;
+    border: none;
+    padding: 5px 35px;
+    font-size: 15px;
+    min-height: 32px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: none;
+    margin-top: 3.5%;
+    margin-right:2%;
+  }
+  .btn:hover {
+    background-color: #005ea6; 
+    border-color: black;
+  }
+  .gas{
+    margin-top: 10%;
+    margin-left: 65%;
+}
+.farm{
+    background: white;
+    border-radius: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 445px;
+    height: 18.5vh;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 100%;
+    margin-bottom: -23%;
+    margin-left: -100%;
+    text-align: center;
+}
+.fat{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 10%;
+    margin-bottom: 26%;
+    flex-direction: row-reverse;
+}

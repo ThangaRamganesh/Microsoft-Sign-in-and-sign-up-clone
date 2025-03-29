@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter code</title>
+    <link rel="icon" href="https://pngimg.com/d/microsoft_PNG13.png" />
+    <link rel="stylesheet" href="singinstep4.css">
+</head>
+<body>
+    <section class="formy">
+        <div>
+          <img
+            src="https://logincdn.msftauth.net/shared/5/images/microsoft_logo_ee5c8d9fb6248c938fd0.svg"
+            alt="Microsoft Logo"
+          />
+        </div>
+        <div class="back">
+            <p id="displayEmail"></p>   
+            <a href="Signup3.html">
+            <button onclick="goBack()" class="back"><img src="https://logincdn.msauth.net/shared/5/images/arrow_left_a9cc2824ef3517b6c416.svg"></button></a>
+            <script>
+                function goBack() {
+                    window.history.back();
+                }
+            </script>
+        </div>
+        <div>
+            <p class="one">Verify email</p>
+          </div>
+        <div class="two">
+            <p>Enter the code we sent to <b>ramganeshthanga11@gmail.com.</b> 
+                If you didn't get the email, check your junk folder or 
+                <a href="#">try again</a>.</p>
+        </div>
+        <div>
+            <input
+              id="usernameInput"
+              name="New email"
+              placeholder="Enter code"
+              type="text"
+              maxlength="120",required />
+          </div>
+          <div>
+            <input type="checkbox" id="option1" name="options" value="option1">
+            <label for="checkbox" id="label">I would like information, tips, and offers about </label>
+            <p class="was">Microsoft products and services.</p>
+          </div>
+          <div>
+            <p class="cat">
+                Choosing <b>Next</b> means that you agree to the 
+                <a href="#">Microsoft Services Agreement</a> and 
+                <a href="#">privacy and cookies statement</a>.
+            </p>
+          </div>
+            <div class="gas">
+                <br/>
+                <a href="Final.html">
+                  <button class="btn">Next</button>
+                </a>
+          </div>
+    </section>
+</body>
+</html>
